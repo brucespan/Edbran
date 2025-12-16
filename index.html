@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aluguel de Caçambas em [Cidade]. Entrega rápida, preço justo e descarte ecológico. Solicite seu orçamento via WhatsApp agora!">
+  <title>Venda de Caçambas em [Cidade] | Entrega Rápida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<style>
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<body>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/5500000000000?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20caçamba." class="floating-whatsapp" target="_blank" aria-label="Fale conosco no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <h1>CB<span class="highlight"> Caçambas</span></h1>
+      </div>
+      <!-- Mobile Menu Button -->
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav class="nav">
+        <a href="#servicos">Modelos</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#contato" class="btn-nav">Pedir Orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 class="hero-title">Venda de Caçambas em <span class="text-yellow">[Sua Cidade]</span></h1>
+      <p class="hero-subtitle">Entrega rápida e preço justo para sua obra ou reforma.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/5500000000000?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20caçamba." class="btn-primary pulse" target="_blank">
+          <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+        </a>
+      </div>
+      <div class="hero-features reveal">
+        <span><i class="fas fa-check-circle"></i> Entrega em 24h</span>
+        <span><i class="fas fa-check-circle"></i> Qualidade Certificada</span>
+        <span><i class="fas fa-check-circle"></i> Melhor Preço</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicos" class="services">
+    <div class="container">
+      <h2 class="section-title reveal">Nossos Tamanhos de Caçambas</h2>
+      <p class="section-subtitle reveal">Escolha o tamanho ideal para a sua necessidade</p>
+
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <i class="fas fa-trash-alt"></i>
+            <span class="size">3m³</span>
+          </div>
+          <h3>Pequena</h3>
+          <p>Ideal para pequenas reformas e descarte de materiais (terra, caliça).</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Terra e caliça</li>
+            <li><i class="fas fa-check"></i> Pequenas obras</li>
+          </ul>
+          <a href="https://wa.me/5500000000000?text=Orçamento%20caçamba%203m3" class="btn-outline">Cotar Agora</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card featured reveal">
+          <div class="tag-popular">Mais Pedida</div>
+          <div class="card-icon">
+            <i class="fas fa-truck-loading"></i>
+            <span class="size">4m³</span>
+          </div>
+          <h3>Média (Padrão)</h3>
+          <p>O tamanho mais utilizado. Perfeito para reformas residenciais completas e obras médias.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Reformas gerais</li>
+            <li><i class="fas fa-check"></i> Demolição leve</li>
+          </ul>
+          <a href="https://wa.me/5500000000000?text=Orçamento%20caçamba%204m3" class="btn-primary">Cotar Agora</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card reveal">
+          <div class="card-icon">
+            <i class="fas fa-dumpster"></i>
+            <span class="size">5m³</span>
+          </div>
+          <h3>Grande</h3>
+          <p>Para grandes volumes de entulho, construções novas e grandes demolições.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Grandes obras</li>
+            <li><i class="fas fa-check"></i> Grandes volumes</li>
+          </ul>
+          <a href="https://wa.me/5500000000000?text=Orçamento%20caçamba%205m3" class="btn-outline">Cotar Agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it Works Section -->
+  <section id="como-funciona" class="how-it-works">
+    <div class="container">
+      <h2 class="section-title reveal">Como Funciona</h2>
+      <div class="steps-grid">
+        <div class="step reveal">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Solicite pelo WhatsApp</h3>
+            <p>Fale conosco, informe o endereço e o tamanho da caçamba.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Entrega Rápida</h3>
+            <p>Entregamos a caçamba no local combinado com agilidade.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Alta Durabilidade</h3>
+            <p>Tenha um produto robusto e resistente, feito para durar por muito tempo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Differentials / Trust -->
+  <section class="differentials">
+    <div class="container">
+      <div class="diff-grid">
+        <div class="diff-item">
+          <i class="fas fa-file-contract"></i>
+          <h3>Qualidade Certificada</h3>
+          <p>Processo de fabricação com controle de qualidade e materiais de alta resistência comprovada.</p>
+        </div>
+        <div class="diff-item">
+          <i class="fas fa-clock"></i>
+          <h3>Atendimento Ágil</h3>
+          <p>Compromisso com horários de entrega e retirada.</p>
+        </div>
+        <div class="diff-item">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h3>Preço Justo</h3>
+          <p>Valores competitivos sem surpresas na hora de pagar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Area & CTA -->
+  <section id="contato" class="cta-section">
+    <div class="container">
+      <h2>Atendemos toda a região de <span class="text-yellow">[Sua Cidade]</span></h2>
+      <p>Não deixe seu entulho acumular. Resolva agora com quem entende do assunto.</p>
+      <a href="https://wa.me/5500000000000?text=Olá,%20gostaria%20de%20agendar%20uma%20caçamba." class="btn-primary btn-large">
+        <i class="fab fa-whatsapp"></i> Chamar no WhatsApp Agora
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>CB<span class="highlight"> Caçambas</span></h2>
+          <p>Especialistas em Venda de Caçambas.</p>
+        </div>
+        <div class="footer-links">
+          <p><i class="fas fa-map-marker-alt"></i> Atendendo [Sua Cidade] e Região</p>
+          <p><i class="fas fa-phone"></i> (00) 00000-0000</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 CB Caçambas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
